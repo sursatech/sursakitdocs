@@ -1,0 +1,40 @@
+---
+title: "Service (Repository/Source)"
+description: "The source your workspace (project) is based on: repo, upload, empty, database, or image"
+---
+
+A service is the source your workspace uses. Most commonly it’s a repository, but you can also create a service from an uploaded folder, start empty, connect a database, or import a Docker image.
+
+- One workspace can include multiple services (e.g., frontend, backend, database)
+- One service can also back multiple workspaces if reused
+- Updating a service provides new code your workspaces can pull into sessions
+- Types of services:
+  - Repository (GitHub/GitLab/Bitbucket)
+  - Upload from local folder
+  - Empty (start from scratch)
+  - Database
+  - Docker image
+
+How it fits into the flow
+
+1. Create a workspace (project)
+2. Choose or add a service (source)
+3. Create a session (branch) to do your work
+4. Pull newer service changes into your session when needed
+
+Best practices
+
+- Keep services focused (one purpose per service)
+- Reuse the same service across multiple workspaces for experiments
+- Use an uploaded folder for quick demos or prototypes
+
+Usage tips
+
+- Prefer repos for ongoing work; use uploads for quick demos
+- Keep naming consistent so teams can discover the right service
+
+Examples
+
+- "image-models" service (repo) is used by two workspaces: "Classifier A/B Test" and "Benchmark Suite"
+- Upload a zipped folder as a service to quickly demo a customer prototype in a fresh workspace
+

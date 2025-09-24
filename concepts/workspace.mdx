@@ -1,0 +1,44 @@
+---
+title: "Workspace (Project)"
+description: "Your project space that contains sessions (branches) and services (sources)"
+---
+
+A workspace is your project. It’s where your team keeps code/files, creates branches of work (sessions), attaches sources (services), and runs things.
+
+- Lives under an organization (you can have many)
+- Holds files, settings, sessions, and services
+- Persists between runs; open and manage from the application
+
+Relationship to other concepts:
+
+- Service (Repository/Source): what your workspace uses for code/data (e.g., frontend, backend, database, image)
+- Session (Branch): a branch-like line of work within this workspace; default is "main"
+
+How it fits into the flow
+
+1. Create a workspace (your project space)
+2. Add one or more services (sources) to it
+3. Create a session (branch) for your work
+4. Edit files and run; repeat until done
+
+Working with workspaces
+
+- Create: From the home page or switcher, click New Workspace and pick a service (or start empty)
+- Add services later: Attach additional services when you need to compose multiple sources
+- Create sessions: Start a new session to safely try changes without affecting your main work
+
+Duplicate a workspace
+
+- There isn’t a built‑in Duplicate action yet
+- Workaround: create a new workspace from the same service(s), or upload the same folder to a new workspace
+
+FAQ
+
+- Can a workspace have multiple services? Yes — combine sources (e.g., "website-ui" + "api") in the same workspace
+- What happens if I remove a workspace? It removes the project space; sources you connected remain available elsewhere
+- Can I rename a workspace? Yes — rename to keep projects organized
+
+Example
+
+Create a workspace called "Marketing Demo". Attach the "marketing-site" service (repo) and an optional "customer-db" database service. Create sessions like "homepage-copy" and "cta-test" to try changes safely.
+
