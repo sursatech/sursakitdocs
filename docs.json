@@ -81,5 +81,11 @@
   },
   "footer": {
     "socials": {}
+  },
+  "background": {
+    "color": {
+      "light": "#eae8e0",
+      "dark": "#000000"
+    }
   }
 }
