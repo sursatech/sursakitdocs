@@ -7,7 +7,7 @@
     "light": "#ac9664",
     "dark": "#ac9664"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
       {
@@ -68,15 +68,15 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [],
     "primary": {
       "type": "button",
       "label": "Get Started",
-      "href": "https://app.sursakit.com/"
+      "href": "https://platform.humafu.com/"
     }
   },
   "footer": {
