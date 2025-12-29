@@ -1,12 +1,17 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Humafu",
   "colors": {
     "primary": "#ac9664",
     "light": "#ac9664",
     "dark": "#ac9664"
   },
+  "seo": {
+    "metatags": {
+        "canonical": "https://docs.humafu.com"
+    }
+},
   "favicon": "/favicon.png",
   "navigation": {
     "tabs": [
